@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FileToDbDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_excel_file_to_db">把excel文件写进数据库</string>
+    <string name="txt_get_assets_db">读取assets里db数据</string>
+    <string name="txt_assets_files_write_to_db">把assets里的文件写入数据库</string>
+    <string name="txt_assets_db_to_db">把assets里的db文件拷贝到数据库</string>
+</resources>

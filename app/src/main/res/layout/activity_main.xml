@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_excel_to_db_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/txt_excel_file_to_db"
+        android:textAllCaps="false"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_assets_db_to_db_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/txt_assets_db_to_db"
+        android:textAllCaps="false"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_assets_files_to_db_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/txt_assets_files_write_to_db"
+        android:textAllCaps="false"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_get_assets_db_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:text="@string/txt_get_assets_db"
+        android:textAllCaps="false"
+        android:textSize="25sp"/>
+
+</LinearLayout>
